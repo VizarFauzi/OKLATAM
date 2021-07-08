@@ -1,0 +1,40 @@
+body {
+	min-height: 500px;
+}
+
+#up {
+	padding: 5rem;
+	background-color: #9AB3F5;
+	margin-bottom: 5rem;
+}
+
+.rows {
+	padding: 2rem 2rem;
+	background-color: #B9FFFC;
+}
+
+#form {
+	margin-left: 30rem;
+	margin-right: 30rem;
+}
+
+.form-control {
+	background-color: #9AB3F5;
+}
+
+.btnsign {
+	padding: 1rem;
+}
+
+#btnlogin {
+	padding: 0.7rem 0.7rem;
+}
+
+.btnsign {
+	padding-bottom: 5rem;
+}
+
+#down {
+	padding: 5rem;
+	background-color: #9AB3F5;
+}

@@ -1,0 +1,59 @@
+body {
+	min-height: 2000px;
+}
+
+.nav-link {
+	font-family: "Arial", sans-serif;
+}
+
+.jumbotron{
+	padding: 2rem 1rem;
+	background-color:#9AB3F5 ;
+}
+
+.col-4 {
+	padding: 3rem 1rem;
+}
+
+#makanan {
+	padding: 3rem;
+	background-color: #9AB3F5;
+}
+
+.card-text {
+	font-family: "Franklin Gothic Medium", serif;
+}
+
+.card-title {
+	font-family: "Arial", sans serif;
+	font-weight: bold;
+}
+
+.beli {
+	font-family: "Arial", sans-serif;
+	font-size: 95%;
+}
+
+#souvenir {
+	padding: 3rem;
+}
+
+#footer {
+	padding: 2rem;
+	background-color: #4d4d4d;
+	font-family: "Arial", sans serif;
+}
+
+.hc{
+	padding: 0rem 0rem 0rem 15rem;
+}
+
+.hq {
+	padding: 0rem 0rem 0rem 15rem;
+}
+
+#copyright {
+	padding: 1rem;
+	background-color: #232323;
+	font-family: "Arial", sans serif;
+}

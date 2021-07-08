@@ -1,0 +1,34 @@
+.nav-item {
+	padding: 0rem 1rem;
+}
+
+#option {
+	padding: 3rem 5rem;
+	background-color: #9AB3F5;
+	margin-bottom: 3rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 1rem;
+}
+
+.text-danger {
+	font-family: "Franklin Gothic Medium";
+}
+
+.col-5 {
+	margin-left: 1rem;
+}
+
+.btn-kirim {
+	background-color: #9AB3F5;
+}
+
+.btn-primary {
+	font-family: "Arial";
+	margin-left: 2rem;
+}
+
+.btn-secondary {
+	font-family: "Arial";
+	margin-left: 0.5rem;
+}

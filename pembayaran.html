@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	<!-- Make CSS -->
+	<link rel="stylesheet" href="css/pembayaranstyle.css">
+	
+    <title>OLKATAM | Pembayaran</title>
+  </head>
+  
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid fw-bold">
+    <a class="navbar-brand text-primary" href="#">
+      <img src="img/logo.jpg" width="70px">
+	  <img src="img/OLKATAM.jpg" width="120px">
+       | PEMBAYARAN
+    </a>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Section Alamat -->
+<section id="alamat">
+	<div class="container">
+		<div class="row">
+			<div class="col fw-bold">
+				<a><img src="img/LogoLokasi.svg" width="20px" class="lokasi">Alamat Pengiriman</a>
+			</div>
+		<div class="row text center">
+			<form class="row g-2">
+				<div class="col-md-3">
+					<input type="nama" class="form-control" id="inputNama" placeholder="Nama">
+				</div>
+				<div class="col-md-2">
+					<input type="nomor" class="form-control" id="inputNomor" placeholder="No. Handphone">
+				</div>
+				<div class="col-md-7">
+					<input type="alamat" class="form-control" id="inputAlamat" placeholder="Alamat">
+				</div>
+			</form>
+		</div>
+		</div>
+	</div>
+</section>
+<!-- End Section Alamat -->
+
+<!-- Section Produk -->
+<section id="produk">
+	<div class="container">
+		<div class="row">
+			<div class="col fw-bold">
+				<a><img src="img/LogoPesan.svg" width="20px" class="lokasi">Produk Dipesan</a>
+			</div>
+		<div class="row text center">
+			<form class="row g-2">
+				<div class="col-md-4">
+					<img src="img/bingkap.jpg" width="80px">
+				</div>
+				<div class="col-md-2">
+					<label for="inputQty" class="form-label fw-bold">Qty</label><br>
+					<label class="label">1</label>
+				</div>
+				<div class="col-md-2">
+					<label for="inputHarga" class="from-label fw-bold">Harga</label><br>
+					<label class="label">Rp. 30.000</label>
+				</div>
+				<div class="col-md-2">
+					<label for="inputOngkir" class="from-label fw-bold">Ongkir</label><br>
+					<label class="label">Rp. 8.000</label>
+				</div>
+				<div class="col-md-2">
+					<label for="inputSubtotal" class="from-label fw-bold">Subtotal</label><br>
+					<label class="label">Rp. 38.000</label>
+				</div>
+			</form>
+		</div>
+		</div>
+	</div>
+</section>
+<!-- End Section Produk -->
+
+<!-- Section Metode -->
+<section id="produk">
+	<div class="container">
+		<div class="row">
+			<div class="col fw-bold">
+				<a><img src="img/LogoMetode.svg" width="20px" class="lokasi">Metode Pembayaran</a>
+			</div>
+		<div class="row text center">
+			<form class="row g-2">
+				<div class="col-md-7">
+					<img src="img/gopay.jpg" width="80px" class="mb-2">
+					<img src="img/BNI.jpg" width="80px" class="mb-2"><br>
+					<img src="img/OVO.jpg" width="80px" class="mb-2">
+					<img src="img/mandiri.jpg" width="80px" class="mb-2"><br>
+					<img src="img/DANA.jpg" width="80px" class="mb-2">
+					<img src="img/BRI.jpg" width="80px" class="mb-2">
+				</div>
+				<div class="col-md-2">
+					<label class="label fw-bold mb-1">Subtotal Produk</label><br>
+					<label class="label fw-bold mb-1">Ongkos Kirim</label><br>
+					<label class="label fw-bold mb-1">Total Pembayaran</label>
+				</div>
+				<div class="col-md-3">
+					<label class="label mb-1">Rp. 30.000</label><br>
+					<label class="label mb-1">Rp. 8.000</label><br>
+					<label class="label mb-1">Rp. 38.000</label>
+				</div>
+			</form>
+		</div>
+		</div>
+	</div>
+</section>
+<!-- End Section Metode -->
+
+<!-- Section Pesan -->
+<section id="pesan">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5"></div>
+			<div class="col-sm-2 fw-bold">
+				<button type="button" class="btn btn-primary beli text-end" data-bs-toggle="modal" data-bs-target="#exampleModal">PESAN</button>
+			</div>
+			<div class="col-sm-5"></div>
+		</div>
+	</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pesanan Dikonfirmasi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        "Terima kasih karena telah berbelanja diwebsite kami"
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kembali</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
+	
+</section>
+<!-- End Section Pesan -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

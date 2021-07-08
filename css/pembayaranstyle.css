@@ -1,0 +1,31 @@
+.navbar-brand {
+	font-size: 140%;
+}
+
+#alamat {
+	padding: 2rem;
+	background-color: #9AB3F5;
+	margin-bottom: 2rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	margin-top: 1rem;
+}
+
+.lokasi {
+	margin-right: 0.5rem;
+}
+
+#produk {
+	padding: 2rem;
+	background-color: #9AB3F5;
+	margin-bottom: 2rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	margin-top: 1rem;
+}
+
+.btn-primary {
+	padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+	font-size: 130%;
+	margin-bottom: 3rem;
+}
